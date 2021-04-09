@@ -1,6 +1,5 @@
 from battleship.board import Board
 from battleship.game import Game
-from battleship.ship import Ship
 
 import string
 
