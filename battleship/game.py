@@ -18,8 +18,8 @@ class Game():
 
     def take_shot(self, prompt, board):
         while self.guesses_left():
-            shot = "a1"
-            # shot = input(prompt)
+            # shot = "a1"
+            shot = input(prompt)
             self.exit(shot)
             if self.valid_shot(shot, board):
                 return self.convert_shot(shot, board)
