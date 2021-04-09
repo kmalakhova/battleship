@@ -1,0 +1,4 @@
+why the program doesn't go on the 2nd cycle?
+leading zeros are not allowed in Python. how to store coordinates?
+game.py -> def locate_shot()
+
